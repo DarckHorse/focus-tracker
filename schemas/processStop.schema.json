@@ -1,0 +1,7 @@
+{
+  "event_type": "process_stop",
+  "timestamp": "...",
+  "pid": 5724,
+  "process_name": "chrome.exe",
+  "duration_ms": null
+}

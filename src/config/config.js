@@ -1,0 +1,10 @@
+module.exports = {
+  PROCESS_POLL_INTERVAL_MS: 2000,
+  WINDOW_SNAPSHOT_INTERVAL_MS: 2000,
+
+  DEBUG: false,
+
+  LOG_PROCESSES: false,
+  LOG_APP_SESSIONS: false,
+  LOG_WINDOW_SNAPSHOTS: false,
+};

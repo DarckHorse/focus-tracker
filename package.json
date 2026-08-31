@@ -1,0 +1,29 @@
+{
+  "name": "focus-tracker",
+  "version": "1.0.0",
+  "description": "Local focus and process tracking tool",
+  "main": "src/scheduler/main.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "node src/scheduler/main.js",
+    "electron:app": "wait-on tcp:5173 && electron .",
+    "electron": "concurrently -k \"npm:dev\" \"npm:electron:app\"",
+    "electron:only": "electron .",
+    "summarize": "node scripts/summarizeFocus.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "electron": "^41.2.1",
+    "wait-on": "^9.0.5",
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "active-win": "^8.2.1",
+    "node-window-manager": "^2.2.4",
+    "ps-list": "^9.0.0"
+  }
+}

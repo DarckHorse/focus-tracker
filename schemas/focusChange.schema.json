@@ -1,0 +1,8 @@
+{
+  "event_type": "focus_change",
+  "timestamp": "...",
+  "fcid": "...",
+  "previous_app": "Code.exe",
+  "new_app": "chrome.exe",
+  "duration_ms": 1001
+}

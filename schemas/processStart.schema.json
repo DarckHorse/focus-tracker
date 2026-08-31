@@ -1,0 +1,6 @@
+{
+  "event_type": "process_start",
+  "timestamp": "...",
+  "pid": 5136,
+  "process_name": "chrome.exe"
+}
